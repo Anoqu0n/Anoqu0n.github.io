@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>安权&#39;s Blog</title>
+        <link>https://Anoqu0n.github.io/</link>
+        <description>人似秋鸿来有信</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2578932018@qq.com (安权)</managingEditor>
+            <webMaster>2578932018@qq.com (安权)</webMaster><lastBuildDate>Mon, 01 Aug 2022 17:55:28 &#43;0800</lastBuildDate>
+            <atom:link href="https://Anoqu0n.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Prototype Pollution Attck</title>
+    <link>https://Anoqu0n.github.io/posts/proto_attck/</link>
+    <pubDate>Mon, 01 Aug 2022 17:55:28 &#43;0800</pubDate>
+    <author>安权</author>
+    <guid>https://Anoqu0n.github.io/posts/proto_attck/</guid>
+    <description><![CDATA[原型链污染攻击 JavaScript原型链 原型和原型链 JavaScript没有父类和子类这个概念，也没有类和实例的区分。其中的继承关系则是靠一]]></description>
+</item>
+</channel>
+</rss>
