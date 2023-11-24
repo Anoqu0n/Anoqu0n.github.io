@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>loveHeart</title>
+    <title>Give_YiFan</title>
     <link rel="shortcut icon" href="http://zhouql.vip/images/心.png" type="image/x-icon">
     <style>
         html,
@@ -20,17 +20,19 @@
             height: 100%;
         }
         
-        p {
-            position: fixed;
-            top: 50%; /* 居中定位 */
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: pink;
-            font-size: 5vw; /* 使用视口宽度的百分比来适应屏幕大小 */
-            text-align: center;
-            animation: k 1.5s ease-in-out infinite;
-        }
-        
+       p {
+    position: absolute; 
+    top: 40%; /* 垂直居中 */
+    left: 50%; /* 水平居中 */
+    transform: translate(-50%, -50%); /* 保证文本中心与定位点对齐 */
+    color: pink;
+    font-size: 3vw; /* 调小字体大小 */
+    text-align: center;
+    z-index: 1000; /* 确保文本在最前面 */
+    animation: k 1.5s ease-in-out infinite;
+}
+
+
         @keyframes k {
             100% {
                 opacity: 0;
